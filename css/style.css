@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Fuzzy+Bubbles&family=Open+Sans&family=Oswald&family=Raleway&family=Splash&display=swap');
+
+
+/* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+
+*{
+  margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   border: none;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6{
+  font-family: 'Oswald', sans-serif;
+ }
+ 
+ .wrapper{
+  width: 100%;
+  margin: auto;
+  /* border:2px solid red */
+
+  /* navigation section*/
+ }
+ .nav{
+  overflow: auto;
+  width: 85%;
+  margin: 1em auto;
+ }
+ .nav h1{
+  text-transform: uppercase;
+  width: 50%;
+  float: left;
+ }
+ .nav h1 a{
+  font-family: 'Oswald', sans-serif;
+  color: #96746b;
+  text-decoration: none;
+ }
+
+ .nav ul{
+  width: 50%;
+  float: left;
+  text-align: right;
+  margin-top: 1em;
+ }
+ .nav ul li{
+  display: inline-block;
+  margin-left: 1em;
+ }
+ .nav ul a{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #312a26;
+  text-decoration: none;
+ }
+ 
+ /* End of navigation section */
+
+ /* banner section */
+
+ /* task1 */
+
+ .banner{
+  background-image:url(../image/banner-bg.jpg) ;
+  background-size: cover;
+  background-position:center ;
+  position: relative;
+  height: 670px;
+  width: 100%;
+  /* insert background image */
+ }
+
+.banner-text{
+  /* border: 2px solid red; */
+  color: #c7a17a;
+  position: absolute;
+  top: 50%;
+  left: 7.5%;
+  transform: translate(0% -50%);
+  
+}
+.banner-text h2{
+  color: #c7a17a;
+  /* border: 2px solid blue; */
+  font-size: 3em;
+  text-transform: uppercase;
+
+}
+.banner-text h2 span{
+  color:#96746b
+  /* border: 2px solid yellow; */
+  
+}
+.banner-text p{
+  /* color */
+  /* border: 2px solid pink; */
+  color: #fff;
+}
+.banner a{
+  /* border: 2px solid brown; */
+  text-decoration: none;
+  display: inline-block;
+  padding: 1em;
+  background-color: #312a26;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+ margin-top: 1em;
+}
+.ads{
+  width: 85%;
+  margin: 4em auto;
+  overflow:auto;
+  /* border: 2px solid red; */
+}
+.ads-items{
+  /* not yet for background image */
+  float:left ;
+  width: 48.5%;
+  height: 350px;
+background-size: cover;
+background-position: center;
+position:relative;
+margin-bottom: 3%;
+/* border: 2px solid yellow; */
+
+}
+.ads-item1{
+  background-image: url(../image/ads-img1.jpg);
+  margin-right: 3%;
+}
+
+.ads-item2{
+  background-image: url(../image/ads-img2.jpg);
+}
+.ads-text{
+  /* border: 2px solid red; */
+  position:relative;
+  width: 40%;
+  top: 30%;
+  left: 10%;
+  transform: translateY(-50%);
+
+}
+.ads-text h3{
+  /* border: 2px solid green; */
+  text-transform: uppercase;
+color: #fff;
+font-size: 2em;
+line-height:1.2em;
+text-shadow: 3px 3px 6px  #312a26;
+}
+.ads-text a{
+  /* border: 2px solid darkorchid; */
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 1em;
+  text-shadow: 3px 3px 5px  #312a26;
+  color: white; 
+  text-decoration: none;
+  
+  
+}
+
+
+/* merchandise section */
+
+
+.merch{
+  width: 85%;
+  margin: 4em auto;
+}
+
+.section-header{
+  text-align: center;
+}
+
+.section-header span{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  color: #c7a17a;
+}
+
+
+
+.section-header h2{
+  text-transform: uppercase;
+  color: #312a26;
+  /* border-bottom: solid 2px #c7a17a;
+  width: 270px;
+  left: 400px;
+  position: relative; */
+  /* border: 3px solid blueviolet; */
+}
+
+.section-header hr{
+  background-color: #c7a17a;
+  height: 2px;
+  width: 25%;
+  margin: auto; 
+ 
+}
+ 
+/* merch gallery */
+
+.merch-gallery{
+  margin-top: 2em;
+  overflow: auto;
+}
+
+.merch-items{
+  width: 24.25%;
+  float: left;
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+.merch-items:nth-child(4),
+.merch-items:nth-child(8){
+  margin-right: 0;
+}
+
+.merch-items img{
+  width: 100%;
+  height:350px ;
+  object-fit: cover;
+}
+
+
+
+
+.discount{
+  background-image:url(../image/discount-img_720.jpg);
+  background-size: cover;
+  background-position:center ;
+  position: relative;
+  left: 150px;
+  height: 250px;
+  width: 1000px;
+}
+
+.discount-text{
+  color: white; 
+  /* position: absolute; */
+letter-spacing: 1px;
+  top: 100px;
+ 
+  text-align: center ;
+  position: relative;
+   
+}
+
+.discount-text span{
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  color: #fff;
+  text-shadow: 3px 3px 6px #312a26;
+} 
+
+.discount-text h2{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 6px #312a26;
+}
+
+.discount-text a{
+background-color: rgba(255, 255, 255, 0.5);
+color: #312a26;
+font-family: 'Raleway', sans-serif;
+padding: 10px;
+position: relative;
+top: 20px;
+text-decoration: none;
+font-weight: 900;
+}
+
+
+/* ads section2 */
+
+
+.ads-item3{
+background-image: url(../image/ads-img3.jpg);
+margin-right: 3%;
+
+}
+.ads-item4{
+  background-image: url(../image/ads-img4.jpg);
+  
+}
+.ads-item5{
+  background-image: url(../image/ads-img5.jpg);
+  margin-right: 3%;
+}
+.ads-item6{
+  background-image: url(../image/ads-img6.jpg); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reservation{
+  width: 85%;
+ margin:4em auto ;
+ /* border: 3px solid grey; */
+
+}
+form{
+  /* border: 3px solid green; */
+  overflow: auto;
+}
+.form-group{
+  margin-top:2em ;
+  background-color: #f2f2f2;
+  float: left;
+  width:49.5% ;
+  border-radius: 5px;
+  padding: 2em;
+  height: 650px;
+  /* border: 4px solid pink; */
+}
+/* pseud Element */
+.form-group:nth-child(1){
+  margin-right:1% ;
+  /* border: 3px solid blue; */
+}
+
+form input,
+form label,
+form select,
+form textarea{
+
+ display: inline-block;
+  width:100% ;
+  font-family: 'Raleway', sans-serif;
+  padding: 1em;
+  margin-bottom:1em;
+  /* border: 3px solid blue */
+}
+form label{
+  font-weight: 700;
+  padding:0;
+  margin-bottom:.5em;
+  /* border: 3px solid red; */
+}
+.rest-time{
+  text-align: center;
+  /* margin-right: 10%;
+ position: relative;
+ bottom: 3%; */
+  /* border: 3px solid palegreen */
+}
+.rest-time *{
+  width: auto;
+  /* margin-right: -4%; */
+  /* border: 3px solid palegreen */
+}
+
+form p{
+  margin:1em ;
+  text-align:center ;
+  font-weight:700 ;
+  /* border: 3px solid red; */
+}
+form h3{
+  text-align:center;
+  text-transform: uppercase;
+  /* border: 3px solid red; */
+}
+form h3::after{
+content: "";
+background-image:url(../image/reservation-cards.png);
+background-size: contain;
+display: block;
+width: 150px;
+height: 30px;
+margin:auto ;
+margin-left: 35%;
+/* border: 2px solid red; */
+}
+
+.res-agreement *{
+  width: auto;
+  /* border: 3px solid gold; */
+}
+
+form input[type="submit"]{
+  background-color: #c7a17a;
+  font-weight:700;
+  text-transform: uppercase;
+  /* border: 3px solid green; */
+  /* text-align:center; */
+}
+
+
+/* footer section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  background-image: url(../image/footer-img.jpg);
+  background-position: center;
+  background-size: cover;
+padding-top: 2em;
+padding-bottom: 2em;
+
+}
+.footer-contents{
+width:85%;
+margin:auto;
+overflow: auto;
+/* display: flex; */
+/* border: 2px solid red; */
+}
+
+.footer-widgets{
+color: #f2f2f2;
+width: 24%.25%;
+margin-right: 1%;
+float: left;
+/* overflow: auto; */
+/* border: 2px solid red; */
+}
+
+.footer-widgets:nth-child(4){
+margin-right: 0;
+/* border: 2px solid red */
+}
+
+.footer-widgets h3{
+color:#fff ;
+text-transform: uppercase;
+text-shadow:3px 3px 6px #312a26;
+margin-top:1em ;
+margin-bottom: 1em;
+/* border: 2px solid red */
+
+}
+
+.footer-widgets h4{
+color: #fff;
+/* border: 2px solid red */
+}
+
+.footer-widgets p{
+  color: #c7a17a;
+  /* font-size:small; */
+}
+
+.footer td,th{
+color: #fff;
+font-family: 'Raleway', sans-serif;
+text-shadow:3px 3px 6px #312a26;
+/* border: 2px solid red */
+}
+
+
+
+
+.footer-form *{
+width: auto;
+  /* border: 1px solid red; */
+  }
+
+
+
+
+
+
+
+.footer-social{
+background-color: #312a26;
+padding: 2%;
+/* border: 1px solid red; */
+}
+
+
+
+.social-widget{
+color: #fff;
+font-size: large;
+font-family: 'Oswald', sans-serif;
+float: left;
+/* bottom: 5%; */
+/* border: 1px solid red; */
+
+}
+
+.social-widget h3{
+  position: relative;
+  bottom: 20px;
+}
+
+.social-widget img{
+  background-position: center;
+  left: 85%;
+  position: relative;
+  bottom: 14px;
+  /* border: 1px solid red; */
+}
+
+.social-widget p{
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  left: 200%;
+  bottom: 15px;
+  /* border: 1px solid red; */
+}
